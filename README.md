@@ -1,3 +1,6 @@
+# Geo Laravel
+This is a fork from [elevenlab/laravel-geo](https://github.com/eleven-lab/laravel-geo) with some modifications for compatibility with Lumen 5.6+
+
 # Features
 - GeoSpatial integration on Laravel 5.2+:
     - Create geospatial columns using Schema and migrations
@@ -15,7 +18,7 @@ Thanks to https://github.com/njbarrett/laravel-postgis for its original work.
 1) Install using composer
 
 ```bash
-$ composer require elevenlab/laravel-geo
+$ composer require unoapp-dev/laravel-geo
 ```
 
 2) Replace under the Service Providers section ('providers' array) in config/app.php this line
